@@ -12,3 +12,4 @@ currencies.forEach(currency => {
     fromDropDown.add(option);
     
 });
+
