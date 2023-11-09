@@ -13,3 +13,13 @@ currencies.forEach(currency => {
     
 });
 
+currencies.forEach(currency => {
+
+    const option=document.createElement("option");
+
+    option.value=currency;
+    option.text=currency;
+    toDropDown.add(option);
+    
+});
+
