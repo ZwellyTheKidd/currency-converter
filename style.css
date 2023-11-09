@@ -35,6 +35,17 @@ body{
     text-transform: uppercase;
     margin-bottom: 1em;
 }
+label{
+    display: block;
+    font-weight: 600;
+}
+#amount{
+    font-weight: 400;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+}
 #amount:focus{
     color: #9873fe;
     border-color: #9873fe;
