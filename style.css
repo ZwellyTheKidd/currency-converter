@@ -88,3 +88,12 @@ button{
     color: #ffffff;
     font-weight: 600;
 }
+#result{
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    background-color: #e5dbff;
+    color:#02002c9a;
+    margin-top: 1em;
+    padding: 0.8em 0;
+}
