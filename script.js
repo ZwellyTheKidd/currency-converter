@@ -23,3 +23,6 @@ currencies.forEach(currency => {
     
 });
 
+fromDropDown.value="USD";
+toDropDown.value="ZAR";
+
