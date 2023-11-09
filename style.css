@@ -29,8 +29,9 @@ body{
 }
 .app-icon{
     width: 9.37em;
+    margin-bottom: 2em;
 }
-.appp-title{
+.app-title{
     font-size: 1.6em;
     text-transform: uppercase;
     margin-bottom: 1em;
@@ -45,6 +46,9 @@ label{
     display: block;
     width: 100%;
     border-bottom: 2px solid #02002c;
+    color: #7a789a;
+    margin-bottom: 2em;
+    padding: 0.5em;
 }
 #amount:focus{
     color: #9873fe;
