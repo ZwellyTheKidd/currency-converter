@@ -74,3 +74,17 @@ select{
     background-size: 20px 20px;
     background-color: #9873fe;
 }
+select option{
+    background-color: #ffffff;
+    color: #02002c;
+}
+button{
+    font-size: 1em;
+    width: 100%;
+    background-color: #9873fe;
+    padding: 1em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #ffffff;
+    font-weight: 600;
+}
