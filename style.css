@@ -35,3 +35,15 @@ body{
     text-transform: uppercase;
     margin-bottom: 1em;
 }
+
+#amount:focus{
+    color: #9873fe;
+    border-color: #9873fe;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
