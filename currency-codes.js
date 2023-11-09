@@ -1,5 +1,5 @@
 
-let currencies = [
+ let currencies = [
     "AFN",
     "ALL",
     "DZD",
@@ -168,3 +168,12 @@ let currencies = [
     "ZWL"];
 
     currencies.sort();
+
+
+
+
+
+
+
+
+
