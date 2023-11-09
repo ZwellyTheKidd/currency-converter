@@ -26,3 +26,27 @@ currencies.forEach(currency => {
 fromDropDown.value="USD";
 toDropDown.value="ZAR";
 
+let convertCurrency=()=>{
+    const amount=document.querySelector("#amount").value;
+    const fromCurrency=fromDropDown.value;
+    const toCurrency=toDropDown.value;
+
+    if (amount != 0) {
+
+        fetch(api)
+         .then((resp)=> resp.json())
+         .then((data)=>{
+            console.log(data);
+         });
+        
+    }
+    else{
+        alert("Please enter an amount");
+    }
+};
+
+document
+ .querySelector("#Convert-btn")
+ .addEventListener("click", convertCurrency);
+ window.addEventListener("load", convertCurrency);
+
