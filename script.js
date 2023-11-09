@@ -42,7 +42,7 @@ let convertCurrency=()=>{
 
             const convertedAmount=(amount/ fromExchange)*toExchange;
 
-            
+            result.innerHTML = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)}  ${toCurrency}`;
 
 
          });
